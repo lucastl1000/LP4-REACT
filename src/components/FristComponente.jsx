@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 //Comentário
 const PrimeiroComponente = () => {
     /*comentário de 
@@ -6,6 +8,7 @@ const PrimeiroComponente = () => {
         <div>
             {/* Comentário dentro do return */}
             <h1>Meu primeiro componente</h1>
+            <MyComponent/>
         </div>
     );
 };
